@@ -1,0 +1,631 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  box-shadow: 0px 0px 0px 1px #ccc;
+}
+
+.header_mid {
+  max-width: 1320px;
+  margin: auto;
+  display: flex;
+}
+
+.header_midbar {
+  display: none;
+}
+
+.header_midleft {
+  flex-basis: 17%;
+  margin: 1.5%;
+}
+
+.header_midright {
+  flex-basis: 77%;
+  margin: 1.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_midright nav ul {
+  display: flex;
+  gap: 50px;
+}
+
+.header_midright nav ul li {
+  font-size: 17px;
+  font-weight: 200;
+  font-family: var;
+  text-transform: capitalize;
+  color: #5c1c4b;
+}
+
+.header_midright nav ul li i {
+  font-size: 12px;
+}
+
+.banner_mid {
+  max-width: 1320px;
+  margin: auto;
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.banner_midleft {
+  flex-basis: 68%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/Gobooktours/img03.jpg") no-repeat center center;
+}
+
+.banner_midleftcontent {
+  flex-basis: 65%;
+}
+
+.banner_midleftcontent > p {
+  text-align: center;
+  font-size: 38px;
+  color: white;
+}
+
+.banner_midleftcontent form {
+  width: 100%;
+  display: flex;
+  outline: none;
+  border: none;
+}
+
+.banner_midleftcontent input {
+  width: 100%;
+  padding: 8px 0px;
+  outline: none;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.banner_midleftcontent form > div > i {
+  padding: 8px 30px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  background-color: purple;
+}
+
+.banner_midright {
+  flex-basis: 32%;
+  border-radius: 15px;
+  background: url("/Gobooktours/img04.jpg");
+  background-size: cover;
+  color: white;
+  padding-top: 350px;
+  padding-left: 20px;
+}
+
+.banner_midright div > p {
+  width: 145px;
+  color: black;
+  padding: 5px 8px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  background-color: white;
+}
+
+.banner_midright > p {
+  padding-top: 10px;
+  font-size: 31px;
+}
+
+.banner_midright > h5 {
+  padding: 5px 0px;
+  font-weight: 200;
+  font-size: 18px;
+  padding-bottom: 22px;
+}
+
+.bannerimg_mid {
+  max-width: 1320px;
+  margin: auto;
+  border: 1px oslid blue;
+  display: flex;
+}
+
+.bannerimgcontent {
+  flex-basis: 31%;
+  margin: 1.5%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 1px #ccc;
+}
+
+.bannerimg {
+  width: 25%;
+}
+
+.bannerimg img {
+  width: 100%;
+}
+
+.bannercontent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bannercontent h6 {
+  font-size: 16px;
+}
+
+.imagecontent {
+  max-width: 1320px;
+  margin: auto;
+}
+
+.imagecontent > h1 {
+  font-size: 42px;
+  padding: 25px 0px;
+  font-weight: 300;
+}
+
+.images {
+  flex-basis: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.images figure img {
+  border-radius: 15px;
+}
+
+.images_1 {
+  flex-basis: 75%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+}
+
+.images_1 img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.imageOveray {
+  position: relative;
+}
+
+.imageOverayContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 99%;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imageOverContent {
+  position: absolute;
+  bottom: 8%;
+  color: white;
+  left: 5%;
+}
+
+.imageOverContent > h2 {
+  padding-bottom: 10px;
+}
+
+.imageOverContent > b {
+  padding-bottom: 10px;
+}
+
+.imageOverayContent1_1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 97%;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imageOverContent1_1 {
+  position: absolute;
+  bottom: 8%;
+  color: white;
+  left: 5%;
+}
+
+.imageOverContent1_1 > h2 {
+  padding-bottom: 10px;
+}
+
+.imageOverContent1_1 > b {
+  padding-bottom: 10px;
+}
+
+.imagecontent1_mid {
+  max-width: 1320px;
+  margin: auto;
+  padding: 25px 0px;
+}
+
+.imagewithcontent {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 5px;
+  padding: 25px 0px;
+}
+
+.imagewithcontent figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.imagecontent1_mid > h1 {
+  font-size: 42px;
+  padding: 25px 0px;
+  font-weight: 300;
+}
+
+.imageOveray1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.imageOverayContent1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 98%;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imageOverContent1 {
+  position: absolute;
+  bottom: 8%;
+  color: white;
+  left: 5%;
+}
+
+.imageOverContent1 > h2 {
+  padding-bottom: 10px;
+}
+
+.imageOverContent1 > b {
+  padding-bottom: 10px;
+}
+
+.main {
+  width: 100%;
+  background-color: #F4F3F3;
+}
+
+.contentwithimage {
+  max-width: 1320px;
+  margin: auto;
+}
+
+.contentwithimage > h1 {
+  font-size: 35px;
+  font-weight: 300;
+  padding: 20px 0px;
+}
+
+.contentwithimage1 {
+  width: 100%;
+  gap: 20px;
+  display: flex;
+}
+
+.contentwithimage1_1 {
+  flex-basis: 25%;
+  border-radius: 15px;
+}
+
+.contentwithimage1_1 figure img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+}
+
+.contentwithimage1_1 > div > h5 {
+  font-size: 25px;
+  padding: 10px 10px;
+  font-weight: 200;
+  box-shadow: 0px 1px 0px 0px #ccc;
+}
+
+.contentbtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.contentbtn button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  background: #5C1C4B;
+  color: white;
+}
+
+.imageOveray2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.imageOverayContent2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 98%;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imageOverContent2 {
+  position: absolute;
+  bottom: 8%;
+  color: white;
+  left: 5%;
+}
+
+.imageOverContent2 > h2 {
+  padding-bottom: 10px;
+}
+
+.imageOverContent2 > b {
+  padding-bottom: 10px;
+}
+
+.ourbestsellermid {
+  max-width: 1320px;
+  margin: auto;
+}
+
+.ourbestsellermid > h1 {
+  font-size: 40px;
+  padding-top: 20px;
+  font-weight: 300;
+}
+
+.imageourbest {
+  flex-basis: 33%;
+  display: flex;
+  gap: 15px;
+  padding: 25px 0px;
+}
+
+.imageourbest figure > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 35px;
+}
+
+.imageourbestoverlay {
+  position: relative;
+}
+
+.imageourbestoverlaybg {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0;
+  width: 100%;
+  height: 99%;
+  border-radius: 35px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imageourbestoverlaycontent {
+  position: absolute;
+  top: 60%;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.imageourbestoverlaycontent > h4 {
+  font-size: 28px;
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+
+.imageourbestoverlaybtn button {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  padding: 8px 20px;
+  border: none;
+  background-color: #198754;
+  color: white;
+  border-radius: 8px;
+}
+
+.main1 {
+  width: 100%;
+  background-color: #FAF9F9;
+  padding-bottom: 55px;
+}
+
+.checkoutmid {
+  max-width: 1320px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkoutmid > div > h5 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.checkoutmid > div > h6 {
+  padding-bottom: 15px;
+  padding-left: 5px;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.checkoutImagecontent {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.checkoutImage {
+  flex-basis: 33%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 1px 1px #ccc;
+}
+
+.checkoutImage > figure > img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.checkoutImage > figure {
+  padding-bottom: 18px;
+}
+
+.checkoutImage > div > h3 {
+  padding: 10px 5px;
+  font-size: 29px;
+}
+
+.checkoutImage > div > p {
+  padding: 10px 5px;
+  font-size: 21px;
+}
+
+footer {
+  width: 100%;
+  background-color: #000000;
+  position: relative;
+}
+
+.footerdiv {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 98%;
+  margin: auto;
+  padding: 12px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border-radius: 12px;
+  background-color: #CCCDCE;
+}
+
+.footerdiv > p {
+  font-size: 21px;
+  color: white;
+}
+
+.footermid {
+  max-width: 1320px;
+  margin: auto;
+  height: 100%;
+  padding-top: 110px;
+}
+
+.footermid_1 {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.footermid1 {
+  flex-basis: 25%;
+  color: white;
+}
+
+.footermid1itag {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.footermid1 > h2 {
+  font-size: 28px;
+  font-weight: 300;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+}
+
+.footermid1 > nav > ul > div {
+  padding: 5px 0px;
+}
+
+.footermid1 > nav > ul > div > i {
+  font-size: 10px;
+}
+
+.footerbrdr {
+  margin: 25px 0px;
+  box-shadow: 0px 0px 0px 1px #ccc;
+}
+
+.footerbottom {
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  justify-content: space-around;
+}
+
+.imgcontent, .imgcontent1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 5px;
+}
+
+.imgcontent1 > a {
+  color: white;
+}/*# sourceMappingURL=style.css.map */

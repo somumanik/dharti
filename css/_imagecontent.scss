@@ -1,0 +1,107 @@
+.imagecontent {
+    max-width: 1320px;
+    margin: auto;
+    // border: 1px solid red;
+
+}
+
+.imagecontent>h1 {
+    font-size: 42px;
+    padding: 25px 0px;
+    font-weight: 300;
+}
+
+.images {
+    flex-basis: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.images figure img {
+    border-radius: 15px;
+}
+
+.images_1 {
+    flex-basis: 75%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+
+}
+
+.images_1 img {
+    width: 100%;
+
+    border-radius: 15px;
+}
+
+
+// ImageOverlay Code Start
+
+.imageOveray {
+    position: relative;
+}
+
+.imageOverayContent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 99%; 
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.imageOverContent {
+    position: absolute;
+    bottom: 8%;
+    color: white;
+    left: 5%;
+
+}
+
+.imageOverContent>h2 {
+    padding-bottom: 10px;
+}
+
+.imageOverContent>b {
+    padding-bottom: 10px;
+
+}
+
+
+//  imageOverayContent1 Start
+
+
+.imageOverayContent1_1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 97%; 
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.imageOverContent1_1 {
+    position: absolute;
+    bottom: 8%;
+    color: white;
+    left: 5%;
+
+}
+
+.imageOverContent1_1>h2 {
+    padding-bottom: 10px;
+}
+
+.imageOverContent1_1>b {
+    padding-bottom: 10px;
+
+}

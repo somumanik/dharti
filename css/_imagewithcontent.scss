@@ -1,0 +1,67 @@
+.imagecontent1_mid {
+    max-width: 1320px;
+    margin: auto;
+    // border: 1px solid red;
+    padding: 25px 0px;
+}
+
+.imagewithcontent {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 5px;
+    padding: 25px 0px;
+}
+
+.imagewithcontent figure img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.imagecontent1_mid>h1 {
+    font-size: 42px;
+    padding: 25px 0px;
+    font-weight: 300;
+}
+
+
+
+.imageOveray1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    // border: 1px solid blue;
+}
+
+.imageOverayContent1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 98%; 
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.imageOverContent1 {
+    position: absolute;
+    bottom: 8%;
+    color: white;
+    left: 5%;
+
+}
+
+.imageOverContent1>h2 {
+    padding-bottom: 10px;
+}
+
+.imageOverContent1>b {
+    padding-bottom: 10px;
+
+}

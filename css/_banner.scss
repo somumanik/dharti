@@ -1,0 +1,94 @@
+.banner_mid {
+    max-width: 1320px;
+    // border: 1px solid red;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.banner_midleft {
+    flex-basis: 68%;
+    // border: 1px solid blue;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("/Gobooktours/img03.jpg") no-repeat center center;
+}
+
+.banner_midleftcontent {
+    flex-basis: 65%;
+    // margin: auto;
+    // border: 1px solid orange;
+}
+
+.banner_midleftcontent>p {
+    text-align: center;
+    font-size: 38px;
+    color: white;
+}
+
+.banner_midleftcontent form {
+    width: 100%;
+    display: flex;
+    // align-items: center;
+    outline: none;
+    border: none;
+}
+
+.banner_midleftcontent input {
+    width: 100%;
+    padding: 8px 0px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.banner_midleftcontent form>div>i {
+
+    padding: 8px 30px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    background-color: purple;
+}
+
+.banner_midright {
+    flex-basis: 32%;
+    // margin: 1.5%;
+    border-radius: 15px;
+    // border: 1px solid orange;
+    background: url("/Gobooktours/img04.jpg");
+    background-size: cover;
+    color: white;
+    padding-top: 350px;
+    padding-left: 20px;
+
+}
+
+.banner_midright div>p {
+    width: 145px;
+    color: black;
+    padding: 5px 8px;
+    border-radius: 8px;
+    text-transform: capitalize;
+    background-color: white;
+}
+
+.banner_midright>p {
+    padding-top: 10px;
+    font-size: 31px;
+}
+
+.banner_midright>h5 {
+    padding: 5px 0px;
+    font-weight: 200;
+    font-size: 18px;
+    padding-bottom: 22px;
+}
